@@ -5,21 +5,38 @@
 # Your task: Use variables to make the code shorter and easier to change!
 
 # Step 1: Run this program as it is first:
-print("Hello, Alice!")
-print("Alice is 25 years old.")
-print("In 5 years, Alice will be 30 years old.")
-print("Alice really likes pizza.")
-print("Pizza is Alice's favourite food!")
+firstpersonname = "Alice"
+firstpersonage = 25
+firstpersonfood = "pizza"
+print(f"Hello, {firstpersonname}")
+print(f"{firstpersonname} is {firstpersonage} years old.")
+print(f"In 5 years, {firstpersonname} will be {firstpersonage+5} years old.")
+print(f"{firstpersonname} really likes pizza.")
+print(f"{firstpersonfood} is {firstpersonname}'s favourite food!")
 
 # This will just add an empty line for space
 # Please don't touch this
 print("")
 
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+secondpersonname = "Bob"
+secondpersonage = 30
+secondpersonfood = "Noodles"
+print(f"Hello, {secondpersonname}!")
+print(f"Bob is {secondpersonage} years old.")
+print(f"In 5 years, {secondpersonname} will be {secondpersonage+5} years old.")
+print(f"{secondpersonname} really likes {secondpersonfood}.")
+print(f"{secondpersonfood} is {secondpersonname}'s favourite food!")
+
+print ("")
+
+thirdpersonname = "James"
+thirdpersonage = 27
+thirdpersonfood = "Burgers"
+print(f"Hello, {thirdpersonname}!")
+print(f"{thirdpersonname} is {thirdpersonage} years old.")
+print(f"In 5 years, {thirdpersonname} will be {thirdpersonage+5} years old.")
+print(f"{thirdpersonname} really likes {thirdpersonfood}.")
+print(f"{thirdpersonfood} are {thirdpersonname}'s favourite food!")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
@@ -29,7 +46,7 @@ print("Noodles is Bob's favourite food!")
 # 2. Replace the hard-coded text with variables using f-strings.
 # Example:
 # name = "Alice"
-# age = 25
+# age = "25"
 # food = "pizza"
 # print(f"Hello, {name}!")
 # print(f"{name} is {age} years old.")
@@ -39,7 +56,6 @@ print("Noodles is Bob's favourite food!")
 
 # Step 3: Do the same for Bob, or make your own second person!
 # Use different values for name, age, and food.
-
 # Step 4: Add a third person with their own data.
 # This should now be much quicker since you only need to change variables,
 # not rewrite all the print statements.
