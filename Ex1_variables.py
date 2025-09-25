@@ -6,11 +6,11 @@
 
 # Step 1: Run this program as it is first:
 firstpersonname = "Alice"
-firstpersonage = "25"
+firstpersonage = 25
 firstpersonfood = "pizza"
 print(f"Hello, {firstpersonname}")
 print(f"{firstpersonname} is {firstpersonage} years old.")
-print(f"In 5 years, {firstpersonname} will be 30 years old.")
+print(f"In 5 years, {firstpersonname} will be {firstpersonage+5} years old.")
 print(f"{firstpersonname} really likes pizza.")
 print(f"{firstpersonfood} is {firstpersonname}'s favourite food!")
 
@@ -19,22 +19,22 @@ print(f"{firstpersonfood} is {firstpersonname}'s favourite food!")
 print("")
 
 secondpersonname = "Bob"
-secondpersonage = "30"
+secondpersonage = 30
 secondpersonfood = "Noodles"
 print(f"Hello, {secondpersonname}!")
 print(f"Bob is {secondpersonage} years old.")
-print(f"In 5 years, {secondpersonname} will be 32 years old.")
+print(f"In 5 years, {secondpersonname} will be {secondpersonage+5} years old.")
 print(f"{secondpersonname} really likes {secondpersonfood}.")
 print(f"{secondpersonfood} is {secondpersonname}'s favourite food!")
 
 print ("")
 
 thirdpersonname = "James"
-thirdpersonage = "27"
+thirdpersonage = 27
 thirdpersonfood = "Burgers"
 print(f"Hello, {thirdpersonname}!")
 print(f"{thirdpersonname} is {thirdpersonage} years old.")
-print(f"In 5 years, {thirdpersonname} will be 35 years old.")
+print(f"In 5 years, {thirdpersonname} will be {thirdpersonage+5} years old.")
 print(f"{thirdpersonname} really likes {thirdpersonfood}.")
 print(f"{thirdpersonfood} are {thirdpersonname}'s favourite food!")
 
